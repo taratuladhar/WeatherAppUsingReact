@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import axios from 'axios';
+import "./test.css"
 
 function App() {
   const[data,setData]=useState({});
@@ -18,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="search">
         <input 
           value={location}
@@ -28,6 +29,7 @@ function App() {
           type="text" 
         />
       </div>
+
 
      <div className="container">
 
